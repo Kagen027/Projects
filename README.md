@@ -1,4 +1,4 @@
-## Projects
+# Projects
 Here lies the Projects that have been crafted during my time learning and hoaning my skills as a Java Developer.  
 Hopefully these projects give a good blend between my personality, creative, coding style, skills, and knowledge.
 
@@ -10,10 +10,10 @@ is the program that was used to create most of the projects and files.  Thank Yo
 
 ## Glossary
 
-# Homework
+### Homework
 Here are all the code labs and projects that were done while I was attending Claim Academy.  These were more of the early stages of learning logic
 and understanding how to use java to its full potential as an Object Oriented Programming language.  Homework Assignments were more tailored to
 coding equations and understanding how to solve problems and what different types of methods even existed.
 
-# KGN Phonebook
+### KGN Phonebook
 This is a terminal application that allows the user to Add, Update, Delete, and view contacts within the terminal.  And lastly exit the Terminal application.
