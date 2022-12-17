@@ -7,9 +7,7 @@
 3. Create a new abstract class called Person. File  => new => class, then add the word abstract after the modifier. Eg: public abstract class Person{    } 
 
 4. Add an abstract method called taxes.
-To do this we add the word abstract before the method modifier. The method should return a double and should take a double as a parameter. Add protected fields : first name and last name class variables 
-
-Eg: public abstract double taxes(double amount);
+To do this we add the word abstract before the method modifier. The method should return a double and should take a double as a parameter. Add protected fields : first name and last name class variables Eg: public abstract double taxes(double amount);
 
 5. Create two other classes called Student and Employee. Both should extend the Person class. 
 
@@ -18,11 +16,10 @@ Eg: public abstract double taxes(double amount);
 7. If you are a student you should pay 2% in tax..
 
 8. If you are Employed you should pay 20% in taxes .
-
-Eg: public double taxes(double amount){
-return amount * .02;
-//Please note this is only for calculating taxes for a student object
-}
+ Eg: public double taxes(double amount){
+ return amount * .02;
+ //Please note this is only for calculating taxes for a student object
+ }
 
 9. Create a method that's called calculate telephone bill and calculate all other bills.
  These methods should return a double and take a double as a parameter 
