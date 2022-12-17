@@ -37,8 +37,7 @@ To do this we add the word abstract before the method modifier. The method shoul
 13. Create a new Employee object
 
 14. Make a call to the student object calculate telephone bill method 
-
-eg: double stuTelPhoneBill = s1.calculateTelePhoneBill(120.5);
+ eg: double stuTelPhoneBill = s1.calculateTelePhoneBill(120.5);
 
 15. Print this data 
 
