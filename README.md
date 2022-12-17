@@ -5,8 +5,8 @@ Hopefully these projects give a good blend between my personality, creative, cod
 ## Instructions
 Each folder is its own project.  Whichever is your preferred IDE should allow you to select and open each folder separately
 as it own project.  All the necessary files should be in each project folder to allow it to run as is and as intended independently.
-If you are using VS-Code all required folders and files are included to run the program properly and is my preferred method as that
-is the program that was used to create most of the projects and files.  Thank You, and Enjoy!
+If you are using VS-Code all required folders and files are included to run the program properly and is my preferred method as it is 
+the IDE that was used to create most of the projects and files.  Thank You, and Enjoy!
 
 ## Glossary
 
@@ -16,4 +16,4 @@ and understanding how to use java to its full potential as an Object Oriented Pr
 coding equations and understanding how to solve problems and what different types of methods even existed.
 
 ### KGN Phonebook
-This is a terminal application that allows the user to Add, Update, Delete, and view contacts within the terminal.  And lastly exit the Terminal application.
+This is a terminal application that allows the user to Add, Update, Delete, and view contacts within the terminal, As well as exit the Terminal application.
