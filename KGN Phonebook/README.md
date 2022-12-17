@@ -39,3 +39,7 @@ skills are developed on to prevent premature termination.
 
 •  Give an option to terminate the application
 
+## NOTE
+
+When testing functionality of copy and past method open the readme in a text editor and copy the block of John's from there.  Github displays readme.md in weird
+manner that messes with the spacing and formatting and messes with how the assignment was intended to function.
