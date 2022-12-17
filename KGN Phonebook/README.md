@@ -5,17 +5,19 @@ KGN Phonebook (My First ever Java Project)
 ## Info
 
 This Project was created to act as a phonebook/addressbook within the terminal.  My preferred method of running the application is through Bash or ZSH
-within linux terminal by navigating to the bin directory and running Java directly.  This option give the application a more complete feeling of what it was created
+within linux terminal by navigating to the bin directory and running Java directly.  This option gives the application a more complete feeling of what it was created
 for and the environment it was designed to run in.  Second to that would be VS-Code, because the integrated terminal can emulate Bash or ZSH with full functionality
 of clearing the terminal after completing actions and giving a more complete and visually appealing experience.  It will run in Eclipse but won't give full experience
-as eclipse Terminal doesn't run and register all commands like a true Terminal.    
+as eclipse terminal doesn't run and register all commands like a true Terminal.    
 
 ## Assignment Instruction
 
 Test case :
+
 John Doe, 114 Market St, St Louis, MO, 63403, 6366435698
 John E Doe, 324 Main St, St Charles, MO,63303, 8475390126
 John Michael West Doe, 574 Pole ave, St. Peters, MO, 63333, 5628592375
+
 Note: Test cases should work when copy and paste into the console as one entry (as is).
  
 Searching for John should return a list of all 3 records above, displaying the telephone number in this order (636)-453-8563.
