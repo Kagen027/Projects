@@ -1,4 +1,5 @@
 # Lab 3
+
 1. Write a method to remove a given character from a string. E.g. remove all 'Aa' from Average should return verge (core logic only, no .replace or .replaceAll)
 
 2. Write a method to remove duplicate characters from a string.
