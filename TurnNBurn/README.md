@@ -7,9 +7,9 @@ just an opportunity for me to nerd out on all my dream car restoration builds. E
 This is my first ever Full Stack Java Project. In this project I was tasked to create a Dealership website with certain functionality (Assignment details listed below).
 This Project Utilizes Mysql Database, Springboot, Maven, JSP, JSTL, HTML, and CSS. If you decide to connect this to a MySql database and really check this to its full potential,
 all the SQL Statements have ben listed bellow to add some users and vehicles to give the site a more practical look without having to take the time to create multiple vehicles and
-users yourself. Also a couple test cases for the add vehicle functionality within the Admin role. !!Warning!! Potential employers be wary, there is no turning back after this level of background searching and verification... for a junior level Dev postion you will be impressed and you will feel the overwhelming urge to have me on your team. Humbly and respectfully ofcourse ;) !! In all seriousness, whoever you are Thank You for taking the time to view my code and application and I hope you enjoy!
+users yourself. Also a couple test cases for the add vehicle functionality within the Admin role. !!Warning!! Potential employers be wary, there is no turning back after this level of background searching and verification... for a junior level Dev postion you will be impressed and you will feel the overwhelming urge to have me on your team. Humbly and respectfully ofcourse ;) !! Warning !! In all seriousness whoever you are thank you for taking the time to view my code and application and I hope you enjoy!
 
-## Assignment Instructions
+## Assignment
 Car Sales system is an application that computerizes the conventional car sale procedure which we are aware of. This is a Java/Spring JSP based application. This helps in managing data related to buyers and sellers of the cars. Business reports can also be generated and viewed.
 
 This program should handle a new and used vehicles inventory with minimum 10 cars. Every detail of a vehicle like manufacturer name, date of purchase, mileage ( in case of used vehicles), price, make/model, car description picture/s of the car etc.
@@ -81,12 +81,11 @@ VALUES (14, "01/01/2023", "2023-01-02", 2, "Rearwheel Drive", "2JZ 3.0L Twin Tur
 SELECT * FROM turnnburn.vehicle;SELECT * FROM turnnburn.vehicle;
 
 ## SQL For Users
-INSERT INTO turnnburn.user
-values (1, "MasterChief@gmail.com", "John", 1, "117", "cortona", "192-324-2342", "Arbiter")
+INSERT INTO turnnburn.user values (1, "MasterChief@gmail.com", "John", 1, "117", "cortona", "192-324-2342", "MasterChief");
 
-values (2, "JamesonLocke@gmail.com", "Jameson", 0, "Locke", "1234", "123-324-2342", "Lockey")
+INSERT INTO turnnburn.user values (2, "JamesonLocke@gmail.com", "Jameson", 0, "Locke", "1234", "123-324-2342", "Lockey");
 
-values (3, "Arbiter4Life@gmail.com", "Arbiter", 0, "192", "elites", "192-324-2342", "Arbiter")
+INSERT INTO turnnburn.user values (3, "Arbiter4Life@gmail.com", "Arbiter", 0, "192", "elites", "192-324-2342", "Arbiter");
 
 SELECT * FROM turnnburn.user;
 
@@ -149,5 +148,3 @@ Exterior Color: Black
 Picture URL: https://live.staticflickr.com/7442/8727940041_43fc910640_b.jpg
 Price: 52,999
 Date Arrived: 01/05/2023
-
-
