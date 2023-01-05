@@ -37,7 +37,7 @@
                     <form:input path="Sold" type="text" placeholder="Already Sold True/False" />
                 </div>
                 <div class="center space1">
-                    <form:input path="Year" type="text" placeholder="Year '1234'" pattern="[0-9]{4}" required="true" />
+                    <form:input path="Year" type="text" placeholder="Year" pattern="[0-9]{4}" required="true" />
                 </div>
                 <div class="center space1">
                     <form:input path="Make" type="text" placeholder="Make" />
@@ -73,10 +73,10 @@
                     <form:input path="Price" type="text" placeholder="Price" />
                 </div>
                 <div class="center space1">
-                    <form:input path="DateArrived" type="text" placeholder="DateArrived MM/DD/YYYY" />
+                    <form:input path="DateArrived" type="text" placeholder="DateArrived MM/DD/YYYY" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required="true"  />
                 </div>
                 <div class="center space1">
-                    <form:input path="DateSold" type="text" placeholder="DateSold YYYY/MM/DD" />
+                    <form:input path="DateSold" type="text" placeholder="DateSold YYYY-MM-DD"/>
                 </div>
                 <div class="center">
                     <form:button type="submit" class="button-66 center">Submit</form:button>
