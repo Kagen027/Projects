@@ -122,7 +122,9 @@
                                         <div>Transmission:
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${vehicle.getTransmission()}
                                         </div>
+                                        <c:if test="${vehicle.getSold() == true}">
                                         <div class="username full-width justify-right">User: ${owner.getUsername()}</div>
+                                        </c:if>
                                     </div>
                                     <div class="flex-row">
                                         <div>Type:
