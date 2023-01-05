@@ -1,16 +1,15 @@
 # TurnNBurn
-Welcome to TurnNBurn, the best vehicle Dealership you have ever seen.  
-Best inventory you have ever seen I should say...  well if you have the same taste in cars as I do because this project was really 
-just an opurtunity for me to nerd out on all my dream car restoration builds. Enjoy!
+Welcome to TurnNBurn, the best vehicle Dealership you have ever seen. 
+Best inventory you have ever seen I should say... well if you have the same taste in cars as I do because this project was really 
+just an opportunity for me to nerd out on all my dream car restoration builds. Enjoy!
 
 ## Information
-This is my first ever Full Stack Java Project.  In this project I was tasked to create a Dealership website with certain funtionallity (Assignment details listed below).
-This Project Utilizes Mysql Database, Springboot, Maven, JSP, JSTL, HTML, and CSS.  If you decide to connect this to a MySql database and really check this to its full potential,
+This is my first ever Full Stack Java Project. In this project I was tasked to create a Dealership website with certain functionality (Assignment details listed below).
+This Project Utilizes Mysql Database, Springboot, Maven, JSP, JSTL, HTML, and CSS. If you decide to connect this to a MySql database and really check this to its full potential,
 all the SQL Statements have ben listed bellow to add some users and vehicles to give the site a more practical look without having to take the time to create multiple vehicles and
-users yourself. Also a couple test cases for the add vehicle functionality within the Admin role. !!Warning!! Potential employeers be warry, there is no turning back after this level of background searching and verification... for a junior level Dev postion you will be impressed and you will feel the overwelming urge to have me on your team.  Humbly and respectfully ofcourse ;) !! Warning !!  In all seriousness whoever you are thank you for taking the time to view my code and application and I hope you enjoy!
+users yourself. Also a couple test cases for the add vehicle functionality within the Admin role. !!Warning!! Potential employers be wary, there is no turning back after this level of background searching and verification... for a junior level Dev postion you will be impressed and you will feel the overwhelming urge to have me on your team. Humbly and respectfully ofcourse ;) !! Warning !! In all seriousness whoever you are thank you for taking the time to view my code and application and I hope you enjoy!
 
-
-### SQL For Vehicles
+## SQL For Vehicles
 INSERT INTO turnnburn.vehicle
 VALUES (1, "10/13/2022", null, 2, "Rearwheel Drive", "6.6L LS2 Stroker V8", "Matte Black", "Black", "Cheverolet", "Nova", "https://i.pinimg.com/originals/db/50/4e/db504ec3c2219000b51534d59f9ec51f.jpg", 24999, 0, "4L60E", "Compact", 1, null, "5FPYK1F79CB484156", 1969, null);
 
@@ -39,7 +38,7 @@ INSERT INTO turnnburn.vehicle
 VALUES (9, "12/20/2022", null, 2, "Rearwheel Drive", "Mopar SRT 6.2L Hellcat V8", "Green", "Gray", "Dodge", "Challenger Hellcat", "https://www.autotrader.com/wp-content/uploads/2022/10/2023-dodge-challenger-srt-hellcat-front.jpg", 66999, 0, "8-speed automatic", "Coupe", 0, null, "1GBKC34J1YF446675", 2022, null);
 
 INSERT INTO turnnburn.vehicle
-VALUES (10, "08/21/2022", null, 2, "Rearwheel Drive", "Mopar 6.2L HEMI SRT Demon V8", "Matte Black", "Light Brown", "Dodge", "Challenger Demon", "https://cdn.carbuzz.com/gallery-images/1600/475000/800/475854.jpg", 84999, 0, "8-speed automatic", "Coupe", 0, null,  "2T2BK1BA6DC196502", 2022, null);
+VALUES (10, "08/21/2022", null, 2, "Rearwheel Drive", "Mopar 6.2L HEMI SRT Demon V8", "Matte Black", "Light Brown", "Dodge", "Challenger Demon", "https://cdn.carbuzz.com/gallery-images/1600/475000/800/475854.jpg", 84999, 0, "8-speed automatic", "Coupe", 0, null, "2T2BK1BA6DC196502", 2022, null);
 
 INSERT INTO turnnburn.vehicle
 VALUES (11, "01/01/2023", null, 2, "Rearwheel Drive", "6.2 L V8", "Blue", "Black", "Cheverolet", "Camaro ZL1", "https://www.callawaycars.com/wp-content/uploads/2020/10/camaro_pr2A-1.jpg", 63999, 0, "six-speed manual", "Coupe", 0, null, "1G8ZY1270XZ378660", 2022, null);
@@ -55,7 +54,7 @@ VALUES (14, "01/01/2023", "2023-01-02", 2, "Rearwheel Drive", "2JZ 3.0L Twin Tur
 
 SELECT * FROM turnnburn.vehicle;SELECT * FROM turnnburn.vehicle;
 
-### SQL For Users
+## SQL For Users
 INSERT INTO turnnburn.user
 values (1, "MasterChief@gmail.com", "John", 1, "117", "cortona", "192-324-2342", "Arbiter")
 
@@ -65,8 +64,8 @@ values (3, "Arbiter4Life@gmail.com", "Arbiter", 0, "192", "elites", "192-324-234
 
 SELECT * FROM turnnburn.user;
 
-### Vehicle Info To Add 
-Feel Free to make your own Vehicles!  Incase you dont here is some information to fill the form to test the functionality.
+## Vehicle Info To Add 
+Feel Free to make your own Vehicles! In case you don't though, here are some vehicles to fill the form to test the functionality.
 
 2022 Shelby GT350
 
@@ -87,10 +86,9 @@ Picture URL: https://images5.alphacoders.com/676/thumb-1920-676791.jpg
 Price: 68999
 Date Arrived: 01/04/2023
 
-
 2022 Porsche 911 Turbo S
 
-vin: KNDJN2A20F7767381
+vin: ZGMDU23LX5D290993
 used: false
 already sold: false
 year: 2022
@@ -109,11 +107,11 @@ Date Arrived: 01/05/2023
 
 1970 Chevelle SS
 
-vin: KNDJN2A20F7767381
+vin: FGMDU23LX5D290993
 used: false
 already sold: false
 year: 1970
-make: Cheverolete
+make: Chevrolet
 Model: Chevelle SS
 Door: 2
 Type: Coupe
@@ -125,3 +123,5 @@ Exterior Color: Black
 Picture URL: https://live.staticflickr.com/7442/8727940041_43fc910640_b.jpg
 Price: 52,999
 Date Arrived: 01/05/2023
+
+
