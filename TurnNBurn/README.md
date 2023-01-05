@@ -3,11 +3,37 @@ Welcome to TurnNBurn, the best vehicle Dealership you have ever seen.
 Best inventory you have ever seen I should say... well if you have the same taste in cars as I do because this project was really 
 just an opportunity for me to nerd out on all my dream car restoration builds. Enjoy!
 
-## Information
+## Details
 This is my first ever Full Stack Java Project. In this project I was tasked to create a Dealership website with certain functionality (Assignment details listed below).
 This Project Utilizes Mysql Database, Springboot, Maven, JSP, JSTL, HTML, and CSS. If you decide to connect this to a MySql database and really check this to its full potential,
 all the SQL Statements have ben listed bellow to add some users and vehicles to give the site a more practical look without having to take the time to create multiple vehicles and
 users yourself. Also a couple test cases for the add vehicle functionality within the Admin role. !!Warning!! Potential employers be wary, there is no turning back after this level of background searching and verification... for a junior level Dev postion you will be impressed and you will feel the overwhelming urge to have me on your team. Humbly and respectfully ofcourse ;) !! Warning !! In all seriousness whoever you are thank you for taking the time to view my code and application and I hope you enjoy!
+
+## Assignment Instructions
+Car Sales system is an application that computerizes the conventional car sale procedure which we are aware of. This is a Java/Spring JSP based application. This helps in managing data related to buyers and sellers of the cars. Business reports can also be generated and viewed.
+
+This program should handle a new and used vehicles inventory with minimum 10 cars. Every detail of a vehicle like manufacturer name, date of purchase, mileage ( in case of used vehicles), price, make/model, car description picture/s of the car etc.
+
+If a user click to view details of a car we should display the car details :eg
+name, model, year build, price, description, picture, etc...
+
+If a car is sitting in inventory for more than 120 days, there is be an option to place a bid on the car.
+Bidding cars can be sold at a discounted price up to 10% if and only if the dealership's purchase date is over 120 days.
+
+The inventory should have minimum 3 cars with idle days of 120+.
+The inventory should have an option to replenish the inventory by adding pictures and details of a car.
+
+The application to have a reporting section which display information about all transactions made, including the person who purchase the car. 
+This reporting page should order transaction by date starting with the most recent purchase.
+Only Admins should be able to access the reporting section
+
+A user should also be able to search for a type (model) car from the inventory.
+
+The inventory should only have cars available to be sold. If a car has been sold 
+the inventory should reflect this behavior. 
+
+Bonus:
+Add functionality to add a new car for admins to the inventory including a display photo of the car. 
 
 ## SQL For Vehicles
 INSERT INTO turnnburn.vehicle
