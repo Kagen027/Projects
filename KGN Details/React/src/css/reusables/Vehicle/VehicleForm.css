@@ -1,0 +1,199 @@
+.vehicle-form-box{
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.vehicle-form-h1{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 3vh;
+    font-size: 3vw;
+}
+.vehicle-form-h4{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+label{
+    display: flex;
+    margin-top: 20px;
+    font-size:18px;
+    font-family: "Titillium Web", sans-serif;
+}
+.input1{
+    border: none;
+    border-bottom: solid 1px rgba(37, 106, 255, 0.8) ;
+    background-color: rgb(20, 20, 20);
+    padding: 6% 6.5% 0.5% .65%;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+.input1::placeholder{
+    color: rgba(228, 228, 228, 0.521);
+}
+.input2 {
+    border: none;
+    border-bottom: solid 1px rgba(37, 106, 255, 0.8);
+    background-color: rgb(20, 20, 20);
+    padding: 3% 3.5% 0.5% .65%;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+.input2::placeholder{
+    color: rgba(228, 228, 228, 0.521);
+}
+.input3 {
+    border: solid 1px #1d1d25;
+    border-radius: .25rem;
+    padding-left: 1vw;
+    /* border-bottom: solid 1px rgba(37, 106, 255, 0.8); */
+    background-color: #282835;
+    /* padding: 6% 6.5% 0.5% .65%; */
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    height: 5vh;
+}
+.input3::placeholder{
+    color: rgba(228, 228, 228, 0.781);
+}
+.form-vehicle-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 20px; */
+    font-size: 2vw;
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.vehicle-form-container{
+    background-color: rgb(20, 20, 20);
+    height: 40vh;
+    width: 50vw;
+    align-self: center;
+}
+.vehicle-form{
+    align-self: center;
+    width: 32vw;
+    margin-top: 25px;
+}
+.vehicle-form-quote {
+    align-self: center;
+    width: 57vw;
+    margin-top: 55px;
+    gap: 2vh;
+}
+strong{
+    align-items: center;
+    gap: 8px;
+}
+.contents{
+    flex-direction: column;
+    margin: 13px;
+    width: 80%;
+    height: 65vh;
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.808);
+    background-color: rgba(24, 24, 24, 0.89); 
+    align-self: center;
+}
+  .margin-top-35{
+    margin-top: 35px;
+  }
+  .para-2{
+    margin-top: 50px;
+  }
+
+  /* CSS for MultiSelect Input */
+  .search-wrapper{
+    border: solid 1px #fff;
+    border-radius: 0.25rem;
+    padding-left: 1vw;
+    background-color: #282835;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    height: 5vh;
+}
+.multiSelectContainer ul {
+    border: 1px solid #ccc;
+    background-color: #282835;
+    border-radius: 4px;
+    display: block;
+    margin: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 0;
+}
+.multiSelectContainer input {
+    background: transparent;
+    border: none;
+    margin-top: 3px;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+.multiSelectContainer input::placeholder{
+    color: rgba(228, 228, 228, 0.781);
+}
+.optionListContainer {
+    background: #282835;
+    border-radius: 4px;
+    margin-top: 1px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.notFound {
+    display: block;
+    padding: 15px;
+}
+.chip {
+    align-items: center;
+    background: rgba(37, 106, 255, 0.8);
+    border-radius: 11px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 5px 10px;
+    margin: 3px;
+}
+li.groupChildEle {
+    padding-left: 30px;
+    font-size: 20px;
+}
+li.groupHeading {
+    color: #908e8e;
+    padding: 5px 15px;
+    font-size: 20px;
+    pointer-events: none;
+    text-decoration: underline;
+}
+.multiSelectContainer li:hover {
+    background: rgba(37, 106, 255, 0.8);
+    color: #fff;
+    cursor: pointer;
+}
+  /* annoying ammount of css to fix ugly auto complete */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        border-bottom: 1px solid rgba(37, 106, 255, 0.8);
+        -webkit-text-fill-color: #fff;
+        -webkit-box-shadow: 0 0 0px 1000px rgb(20, 20, 20) inset;
+        transition: background-color 5000s ease-in-out 0s;
+}

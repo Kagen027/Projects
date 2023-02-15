@@ -1,0 +1,83 @@
+
+.intro{
+    font-size: 35px;
+}
+#signs{
+    gap: 3%;
+}
+
+#project-details-box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#project-details-title-box{
+    display: grid;
+    gap: 2%;
+    justify-content: center;
+}
+#tops{
+    gap: 3%;
+}
+.project-details-title{
+    font-size: 3.5vw;
+    font-weight: bold;
+    justify-content: center;
+}
+.project-details-info{
+    margin-top: 18px;
+    width: fit-content;
+    font-size: 2vw;
+    justify-self: center;
+    color: #5384FF;
+}
+.full-width{
+    flex:1;
+}
+.add-width{
+    width: 300px;
+}
+.slider{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.slider-image{
+    margin-top: 7vh;
+    height: 565px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.right-arrow{
+    width: 15%;
+    top: 50%;
+    right: 200px;
+    font-size: 3rem;
+    z-index: 15;
+    padding-right: 12%;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    width: 15%;
+    top: 50%;
+    padding-left: 12%;
+    left: 200px;
+    font-size: 3rem;
+    z-index: 15;
+    cursor: pointer;
+    user-select: none;
+}
+.slide{
+    opacity:0;
+    transition-duration: 1s ease;
+}
+.slide.active{
+    width: 70%;
+    justify-content: center;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

@@ -1,0 +1,36 @@
+#service-info-container{
+    gap: 4%;
+    width: 85%;
+    margin-top: 0 !important;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+#service-button-container{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.service-button{
+    border: none;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    cursor: pointer;
+}
+.service-button:focus{
+    border-bottom: 2px solid rgba(37, 106, 255, 0.8);
+}
+#service-details-container{
+    width: 55%;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+}

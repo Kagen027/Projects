@@ -1,0 +1,54 @@
+.vehicle-setting-h1{
+    align-self: center;
+    margin-top: 20px;
+    color: rgba(37, 106, 255, 0.8);;
+}
+.vehicle-setting-p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 20px; */
+    font-size: 2.5vw;
+    font-family: "Titillium Web", sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contents-vehicle-setting{
+    flex-direction: column;
+    margin: 13px;
+    width: 89%;
+    height: 67vh;
+    box-shadow: 0 0px 4px 1px rgb(0 0 0 / 81%);
+    background-color: rgba(24, 24, 24, 0.89);
+    align-self: center;
+}
+.vehicle-setting-box {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.trash-container{
+    width: 100%;
+    justify-content: right;
+    
+}
+.trash{
+    color: red;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top:10px;
+}
+.trash:hover{
+    color: rgb(255, 72, 72);
+    cursor: pointer;
+}
+.vehicle-setting-container {
+    background-color: rgb(20, 20, 20);
+    height: 42vh;
+    width: 50vw;
+    align-self: center;
+}
+.margin-top-60{
+    margin-top: 60px;
+}

@@ -1,0 +1,134 @@
+#luxury{
+    width: 100%;
+
+}
+#luxury-container{
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+#luxury-text{
+column-gap: 1%;
+padding-right: 25px;
+}
+.sally-best{
+    margin-top: 10px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.luxury-title{
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 38px;
+    font-weight: bolder; 
+}
+.luxury-slogan{
+    color: rgba(37, 106, 255, 100);
+    margin-top: 10px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+}
+#responsive-tile-container{
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.808);
+    background-color: rgb(39, 39, 39);
+    height: 650px;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+#why-us-section{
+    height: 400px;
+    align-items: center;
+}
+#why-us-title{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    align-items: flex-end;
+    width: 1200px;
+    height: 25%;
+    gap: 20px;
+    min-width: 600px;
+
+}
+.whyus-title1{
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgba(37, 106, 255, 0.8);
+}
+.whyus-title2{
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 45px;
+    
+}
+#why-us-containers{
+    gap: 15px;
+}
+.whyus-container1{
+    background-color: rgb(119, 119, 119);
+    width: 375px;
+    height: 125px;
+    border-radius: 5px;
+    transform: skewx(20deg);
+}
+.whyus-container1-title{
+    transform: skewx(-20deg);
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 48px;
+}
+.whyus-container1-text{
+    transform: skewx(-20deg);
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 32px;
+    margin-right: 25px;
+}
+.whyus-container2{
+    background-color: rgb(119, 119, 119);
+    width: 375px;
+    height: 125px;
+    border-radius: 5px;
+    transform: skewx(20deg);
+}
+.whyus-container2-title{
+    transform: skewx(-20deg);
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 48px;
+}
+.whyus-container2-text{
+    transform: skewx(-20deg);
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 32px;
+    margin-right: 25px;
+}
+.whyus-container3{
+    background-color: rgba(37, 106, 255, 0.8);
+    width: 375px;
+    height: 125px;
+    border-radius: 5px;
+    transform: skewx(20deg);
+}
+.whyus-container3-title{
+    transform: skewx(-20deg);
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 48px;
+}
+.whyus-container3-text{
+    transform: skewx(-20deg);
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 32px;
+    margin-right: 25px;
+}
+#social-media{
+    background-color: purple;
+    height: 125px;
+}

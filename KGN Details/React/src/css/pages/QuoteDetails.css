@@ -1,0 +1,33 @@
+.quote-details-content {
+    height: 86vh;
+    width: 100%;
+    margin-top: 60px;
+}
+.quote-details-intro{
+    justify-content: center;
+    font-size: 4.5vw;
+    font-weight: 400;
+    color: #FFF;
+}
+.quote-details-intro-title{
+    color: #FFF;
+}
+.quote-details-action{
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 3vw;
+}
+.quote-form-container {
+    background-color: rgb(20, 20, 20);
+    height: 82%;
+    width: 100%;
+    align-self: center;
+}
+.select-service{
+    justify-content: center;
+    margin-top: 6vh;
+    font-size: 4vw;
+}
+.margin-top-vh{
+    margin-top: 8vh;
+}

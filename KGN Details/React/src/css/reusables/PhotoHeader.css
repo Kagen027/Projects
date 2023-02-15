@@ -1,0 +1,41 @@
+#photo-header-service{
+    width: 100%;
+    height: 400px;
+    background-image: url("../../assets/images/pages/Services/ServicesHeader.jpg");
+    background-size: cover;
+    background-position: 0px 35%;    
+    opacity: 80%;
+    position: relative;
+    z-index: 1;
+}
+#photo-header-portfolio{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://wallpaperaccess.com/full/1288537.jpg");
+    background-size: cover;
+    background-position: 0px 75%;    
+    opacity: 80%;
+    position: relative;
+    z-index: 1;
+}
+#photo-header-quote{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1653597144817-9c58f934761b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80");
+    background-size: cover;
+    background-position: 0px 10%;    
+    opacity: 80%;
+    position: relative;
+    z-index: 1;
+}
+#photo-header-testimonals{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://images.unsplash.com/photo-1645583976188-7641a839b8f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+    background-size: cover;
+    background-position: 0px 45%;    
+    opacity: 80%;
+    position: relative;
+    z-index: 1;
+}
+

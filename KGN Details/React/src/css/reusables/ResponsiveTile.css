@@ -1,0 +1,75 @@
+#responsive-tile{
+    background-color: rgb(68, 68, 68);
+    width: 384px;
+    height: 536px;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px 0px;
+    border-radius: 6px;
+}
+#responsive-tile:hover{
+    cursor: pointer;
+    transform: scale(1.05) translate(0px, -8px);
+    transition: all 200ms ease-in-out 0s;
+    box-shadow: rgba(37, 106, 255, 0.8) 0px 0px 20px 6px;
+}
+#tile-picture{
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    width: 336px;
+}
+#tile-picture-stars{
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    width: 336px;
+}
+#tile-picture-previous{
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 275px;
+}
+#tile-call-action{
+    margin-top: -20px;
+    color: rgba(37, 106, 255, 0.8);
+    font-weight: bolder;
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Ivar Headline", "Ivar Headline Subset", "Adjusted Times", "Adjusted Times New Roman", "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: -35px;
+}
+#tile-discrition-container{
+    justify-items: center;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+}
+#tile-discrition{
+    justify-content: center;
+}
+.tile-button{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 55px;
+    width: 200px;
+    background-color: white;
+    color: rgba(6, 85, 255, 0.904);
+    border-color: rgb(33, 67, 160);
+    font-size: 18px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+#responsive-tile:hover button{
+  cursor: pointer;
+  background-color: rgba(6, 85, 255, 0.904);
+  color: white;
+}

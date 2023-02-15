@@ -1,0 +1,82 @@
+#testimonial-content{
+  
+    justify-content: flex-start;
+    align-items: center;
+    height: 73.5%;
+    margin-top: 1.5vh;
+}
+.testimonials-title{
+    font-size: 2.5vw;
+}
+.testimonials-title2{
+    font-size: 1.5vw;
+    margin-top: 1.5vh;
+}
+.testimony-container{
+    margin-top: 35px;
+    gap: 4%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.testimony-box{
+    background-color: #313131;
+    width: 24vw;
+    height: 45vh;
+}
+.quotations{
+    color: #1fc19a;
+    font-size: 1.75vw;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.quotations-purple{
+    color: #8a5fbb;
+    font-size: 1.75vw;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.quotations-blue{
+    color: #58a3f2;
+    font-size: 1.75vw;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.testimony-p{
+    font-weight: 500;
+    margin: 10px 40px 0 40px;
+    line-height: 40px;
+}
+.testimony-color-block-green{
+    background-color: #1fc19a;
+    height: 170px;
+    margin-top: 48px;
+    justify-content: end;
+    padding-bottom: 25px;
+}
+.testimony-color-block-purple{
+    background-color: #8a5fbb;
+    height: 170px;
+    margin-top: 48px;
+    justify-content: end;
+    padding-bottom: 25px;
+}
+.testimony-color-block-blue{
+    background-color: #58a3f2;
+    height: 170px;
+    margin-top: 48px;
+    justify-content: end;
+    padding-bottom: 25px;
+}
+.testimony-person-name{
+    font-size: 1.5vw;
+    font-weight: 560;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+.testimony-social{
+    font-size: 1.5vw;
+    gap: 1vw;
+    justify-content: center;
+    width: 100%;
+}

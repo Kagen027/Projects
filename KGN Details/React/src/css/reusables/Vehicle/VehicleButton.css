@@ -1,0 +1,59 @@
+/* CSS for Vehicle Button */
+.vehicle-button-box{
+    background-color: rgba(54, 54, 54, 0.897);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    width: 20vw;
+    height: 12vh;
+}
+
+.button-customer-name-container{    
+    width: 100%;
+    justify-content: center;
+    font-size: 1.35vw;
+    color: rgba(37, 106, 255, 0.8);
+    font-weight: bold;
+    margin-top: 5px;
+}
+.button-customer-name{
+    width: 90%;
+    justify-content: center;
+    padding-left: 1.5vw;
+}
+.gear{
+    color: #fff;
+}
+.gear:hover{
+    cursor: pointer;
+    color: #b6b6b6;
+}
+.button-vehicle-title{
+    width: 100%;
+    justify-content: center;
+    gap: .25vw;
+}
+.car{
+    font-size: 6vw;
+    width: 100%;
+}
+
+/* CSS for Vehicle Buttton Quote */
+
+.vehicle-button-box-quote{
+    background-color: rgba(54, 54, 54, 0.897);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    width: 20vw;
+    height: 12vh;
+}
+.vehicle-button-box-quote:hover{
+    cursor: pointer;
+    transform: scale(1.03) translate(0px, -4px);
+    transition: all 200ms ease-in-out 0s;
+    background-color: rgba(83, 83, 83, 0.897);
+}
+.button-customer-name-quote {
+    width: 90%;
+    justify-content: center;
+    /* padding-left: 1.5vw; */
+}

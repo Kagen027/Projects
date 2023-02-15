@@ -1,0 +1,31 @@
+#all-previous-container{
+    gap: 4%;
+    width: 95%;
+    margin-top: 7% !important;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+#previous-details-container{    
+    gap: 4%;
+    width: 100%;
+    margin-top: 7% !important;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.portfolio-intro{
+    margin-top: 4%;
+    font-size: 40px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bolder;
+    border-bottom: solid;
+    border-color: rgba(37, 106, 255, 0.8);
+}
+.previous-work-intro{
+    margin-top: 0.28rem;
+}

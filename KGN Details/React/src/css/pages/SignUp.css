@@ -1,0 +1,47 @@
+.signup-contents{
+    display: contents;
+}
+.signup-form-h1 {
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    gap: 6px;
+    font-weight: normal;
+}
+.signup-form-box {
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    height: 600px;
+    margin-top: 277px !important;
+    margin: auto;
+    border-radius: 5px;
+}
+.a-link-signIn{
+    color: rgba(37, 106, 255, 0.8) ;
+    text-decoration: none;
+}
+.a-link-signIn:hover{
+    color: rgb(83, 138, 255) 
+}
+#link-container{
+    gap: 3%;
+    margin-top: 125px;
+}
+.links-bottom{
+    color: #fff;
+    text-decoration: none;
+}
+.links-bottom:hover{
+    color: rgb(83, 138, 255);
+}
+.error-signIn{
+    color: red;
+    align-self: center;
+    padding-top: 40px;
+}
+.sinup-form-container{
+    width: 30vw;
+    align-self: center;
+}

@@ -1,0 +1,15 @@
+.KGN{
+    color: rgba(37, 106, 255, 100);
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.nav-size{
+    font-size: 25px;
+}.nav-margin{
+    margin-top: .25rem;
+}
+.vid-size{
+    font-size: 40px;
+}.vid-margin{
+    margin-top: .28rem;
+}
