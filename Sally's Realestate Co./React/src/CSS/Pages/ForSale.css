@@ -1,0 +1,22 @@
+#houses{
+    gap: 4%;
+    width: 85%;
+    margin-top: 7% !important;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.intro{
+    margin-top: 4%;
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bolder;
+    border-bottom: solid;
+    border-color: #bb8d40;
+
+}
+.house-icon{
+    color: #bb8d40;
+}

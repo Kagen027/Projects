@@ -1,0 +1,56 @@
+#responsive-tile{
+    background-color: white;
+    width: 384px;
+    height: 536px;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px 0px;
+    border-radius: 6px;
+}
+#responsive-tile:hover{
+    transform: scale(1.05) translate(0px, -8px);
+    transition: all 200ms ease-in-out 0s;
+    box-shadow: rgba(255, 0, 0, 0.8) 0px 2px 8px 0px;
+}
+#tile-picture{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 336px;
+    height: 200px;
+}
+#tile-call-action{
+    margin-top: 10px;
+    color: rgb(42, 42, 51);
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Ivar Headline", "Ivar Headline Subset", "Adjusted Times", "Adjusted Times New Roman", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 32px;
+}
+#tile-discrition-container{
+    justify-items: center;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+}
+#tile-discrition{
+    justify-content: center;
+}
+#tile-button{
+    margin-top: 30px;
+    height: 55px;
+    width: 200px;
+    background-color: white;
+    color: #db2b39;
+    border-color: #db2b39;
+    border: solid 2px;
+}
+#responsive-tile:hover button{
+  background-color: #db2b39;
+  color: white;
+}

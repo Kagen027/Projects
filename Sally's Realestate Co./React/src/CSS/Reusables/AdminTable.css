@@ -1,0 +1,28 @@
+.table-box{
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+.table{
+    width: 90%;
+    justify-content: center;
+}
+.table td,
+.table th{
+    padding: 12px 15px;
+    text-align: center;
+    margin-top: 10%;
+}
+.button-box{
+    width: 90%;
+    display: flex;
+}
+#button-2{
+    margin-right: 5%;
+}
+.input {
+    width: 65%;
+    text-align: center;
+}

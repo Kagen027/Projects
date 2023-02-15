@@ -1,0 +1,152 @@
+.justify-center{
+    justify-content: center;
+}
+
+.justify-right{
+    justify-content: right;
+}
+
+.justify-left{
+    justify-content: left;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.fill-title{
+    margin-bottom: 58px;
+}
+.space1{
+    margin-bottom: 1%;
+}
+
+.space2{
+    margin-bottom: 2%;
+}
+
+.space7{
+    /* margin-bottom: 5%; */
+    margin-top: 2%;
+}
+
+.intro{
+    font-size: 35px;
+}
+
+.button-1 {
+    background-color: #bb8d40;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 40px;
+    width: 75%;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: -23px;
+}
+
+.button-1:hover,
+
+.button-1:focus {
+  background-color: #ffbb00e5;
+}
+#shadow-box{
+    padding: 2%;
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 25%);
+}
+#signs{
+    gap: 3%;
+}
+
+#title-box{
+    gap: 2%
+}
+
+#house-box{
+    /* this height is for houses with 10% off will need changed for homes with 
+    no discount  */
+    height: 515px; 
+    width: 520px;
+    margin-bottom: 4%;
+}
+#tops{
+    gap: 3%;
+}
+a:hover{
+    color: #bb8d40;
+}
+img{
+    height: 300px;
+    width: 500px;
+}
+.address{
+    font-size: 25px;
+}
+.dollar{
+    font-size: 25px;
+    color: #bb8d40;
+}
+.price1{
+    font-size: 25px;
+    color: #73dd59;
+    /* text-decoration: line-through; */
+}
+.price-90{
+    font-size: 25px;
+    color: #73dd59;
+    text-decoration: line-through;
+    text-decoration-color: #bb8d40;
+}
+.discount{
+    color:red;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    border-bottom: 1px solid #bb8d40;
+    padding-bottom: 3px;
+}
+.explenation{
+    color: #73dd59;
+}
+.full-width{
+    flex:1;
+}
+.add-width{
+    width: 300px;
+}
+
+/* Playing around to make Mobile Friendly, Needs work for house box to fit on screen */
+/* @media only screen and (max-width: 600px) { */
+/* @media only screen and (max-height: 697px) {
+        #link-container{
+            gap: 3%;
+            margin-top: 2%;
+            margin-bottom: 3%;
+            padding-bottom: 30px;
+        }
+        body{
+           overflow: auto;
+        }
+    } */
+

@@ -1,0 +1,74 @@
+.sign-box{
+    flex-direction: column;
+    width:360px;
+    height: 650px;
+    margin: auto;
+    background-color:#ffffff;
+    border-radius:5px ;
+}
+.login-box{
+    flex-direction: column;
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    background-color:#ffffff;
+    border-radius: 5px;
+}
+h1{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    color: #000000;;
+}
+h4{
+    font-family: "Titillium Web", sans-serif;
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+label{
+    display: flex;
+    margin-top: 20px;
+    font-size:18px;
+    font-family: "Titillium Web", sans-serif;
+}
+.input1{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    width: 361px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color:#000000;;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: "Titillium Web", sans-serif;
+    color: #000000;;
+}
+strong{
+    align-items: center;
+}
+.contents{
+    flex-direction: column;
+    margin:100px;
+    margin-top: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}

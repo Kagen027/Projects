@@ -1,0 +1,35 @@
+#da-best{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+#best-pic{
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#best-place{
+column-gap: 1%;
+padding-right: 25px;
+}
+.sally-best{
+    margin-top: 10px;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.best-slogan{
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    color: rgb(89, 107, 130);
+    justify-content: center;
+}
+#responsive-tile-container{
+    background-color: rgb(249, 249, 251);
+    height: 650px;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+}

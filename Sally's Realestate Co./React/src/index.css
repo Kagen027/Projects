@@ -1,0 +1,45 @@
+htm1,body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+*:not(head){
+  display: flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+.flex-col{
+  flex-direction: column;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.fill-vertical{
+  flex: 1;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  flex-direction: column;
+  flex: auto;
+}
+router{
+  height: 100%;
+  flex-direction: column;
+}
