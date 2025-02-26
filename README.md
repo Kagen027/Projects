@@ -1,5 +1,5 @@
 ## Projects
-Here lies the Projects that have been crafted during my time learning and hoaning my skills as a Java Developer.  
+Here lies the Projects that have been crafted during my time learning and hoaning my skills as a Full Stack Developer.  
 Hopefully these projects give a good blend between my personality, creative, coding style, skills, and knowledge.
 
 ## Instructions
